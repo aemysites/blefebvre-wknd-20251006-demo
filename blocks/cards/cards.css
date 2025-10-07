@@ -46,7 +46,6 @@
   box-sizing: border-box;
 }
 
-/* --- Left column: feature/main --- */
 .cards.cards2 .block {
   flex: 2 1 0;
   display: flex;
@@ -120,7 +119,6 @@
   border-color: #232323;
 }
 
-/* --- Right column: 2x2 grid of cards --- */
 .cards.cards2 ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -191,7 +189,6 @@
   line-height: 1.4;
 }
 
-/* Responsive: stack columns and cards on small screens */
 @media (width <= 900px) {
   .cards.cards2 .cards-wrapper {
     flex-direction: column;
@@ -218,4 +215,95 @@
     min-height: 160px;
     max-height: 220px;
   }
+}
+
+
+.cards.cards7 {
+  background: #fff;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* Remove default list styles and spacing from ul inside the block */
+.cards.cards7 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+/* Flex row for horizontal card alignment */
+.cards.cards7 ul,
+.cards.cards7 .cards-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Responsive: stack cards vertically on screens below 900px */
+@media (width <= 900px) {
+  .cards.cards7 ul,
+  .cards.cards7 .cards-wrapper {
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+}
+
+/* Card container: equal width/height, no border, rounded corners, overflow hidden */
+.cards.cards7 li {
+  flex: 1 1 0;
+  display: flex;
+  align-items: stretch;
+  border: none;
+  background: none;
+  border-radius: 24px;
+  overflow: hidden;
+  min-width: 0;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+/* Card image: aspect ratio, rounded corners, image crops/fills nicely */
+.cards.cards7 .cards-card-image {
+  width: 100%;
+  aspect-ratio: 3/2;
+  border-radius: 24px;
+  overflow: hidden;
+  background: #fff;
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.cards.cards7 .cards-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 24px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+
+/* Remove bullet styles from li inside .cards.cards7 */
+
+/* Remove extra padding/margin from wrappers */
+.cards.cards7 .cards-wrapper {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
