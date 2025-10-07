@@ -302,36 +302,31 @@
 
 
 .cards.cards10 {
-  /* Root container styles (optional padding if needed) */
   padding: 0;
   background: var(--background-color);
 }
 
-/* Responsive grid layout for card list */
 .cards.cards10 ul {
-  /* Make the card list a grid */
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 columns */
-  gap: 20px; /* horizontal and vertical gap between cards */
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-/* Responsive breakpoints */
 @media (width <= 900px) {
   .cards.cards10.block ul {
-    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (width <= 600px) {
   .cards.cards10.block ul {
-    grid-template-columns: 1fr; /* stack cards vertically */
+    grid-template-columns: 1fr;
   }
 }
 
-/* Card styles */
 .cards.cards10.block ul > li {
   border: 1px solid #D1D5DB;
   border-radius: 18px;
@@ -339,10 +334,9 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  min-width: 0; /* Avoid overflow issues in grid/flex */
+  min-width: 0;
 }
 
-/* Card image styling */
 .cards-card-image picture,
 .cards-card-image img {
   display: block;
@@ -355,16 +349,14 @@
   border-radius: 18px 18px 0 0;
 }
 
-/* Card body/content area */
 .cards-card-body {
   padding: 24px;
   display: flex;
   flex-direction: column;
-  flex: 1; /* Fills the available vertical space */
+  flex: 1;
   justify-content: flex-start;
 }
 
-/* Capsule Label (first <p> in .cards-card-body) */
 .cards-card-body p:first-child {
   display: inline-block;
   background: #F3F4F6;
@@ -379,7 +371,6 @@
   margin-top: 0;
 }
 
-/* Title */
 .cards-card-body h3 {
   font-size: 22px;
   font-weight: 700;
@@ -389,10 +380,210 @@
   margin: 0 0 8px;
 }
 
-/* Description (second <p> in .cards-card-body) */
 .cards-card-body p:last-child {
   font-size: 15px;
   font-weight: 400;
   color: #6B7280;
   margin: 0;
 }
+
+
+.cards.cards12 {
+  padding-top: 56px;
+  padding-bottom: 56px;
+  background: #fff;
+}
+
+.cards.cards12 .cards-wrapper {
+  padding: 0;
+  margin: 0;
+  background: transparent;
+}
+
+.cards.cards12 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cards.cards12 ul li {
+  background: #fff;
+  border-radius: 28px;
+  box-shadow: 0 8px 32px rgb(36 36 40 / 4.5%);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: none;
+  max-width: 340px;
+  width: 100%;
+  min-width: 240px;
+  transition: box-shadow 0.2s;
+}
+
+.cards.cards12 .cards-card-image {
+  width: 100%;
+  height: 240px;
+  min-height: 180px;
+  background: #f2f2f2;
+  border-top-left-radius: 28px;
+  border-top-right-radius: 28px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards.cards12 .cards-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Card body vertical stack */
+.cards.cards12 .cards-card-body {
+  flex: 1 1 auto;
+  padding: 32px 32px 36px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* Badge and date row: flex row using the first two p elements */
+.cards.cards12 .cards-card-body p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.cards.cards12 .cards-card-body p:first-child,
+.cards.cards12 .cards-card-body p:nth-child(2) {
+  height: 32px;
+  line-height: 32px;
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+/* Row flex alignment by floating badge left and date right, but ensure baseline */
+
+.cards.cards12 .cards-card-body p:first-child {
+  background: #F2F2F2;
+  color: #232323;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 9999px;
+  padding: 6px 20px;
+  letter-spacing: 0.09em;
+  min-width: 56px;
+  max-width: 90px;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 0;
+  box-sizing: border-box;
+  float: left;
+}
+
+.cards.cards12 .cards-card-body p:nth-child(2) {
+  color: #232323;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: auto;
+  margin-right: 0;
+  text-align: right;
+  min-width: 60px;
+  height: 32px;
+  line-height: 32px;
+  background: transparent;
+  float: right;
+  padding-right: 4px;
+}
+
+/* Headline/title: bold, uppercase, large, extra margin above */
+.cards.cards12 .cards-card-body h3 {
+    font-size: 15px;
+    margin-top: 12px;
+  }
+
+/* Responsive: stack cards, adjust gap/image/body/headline */
+@media (width <= 1200px) {
+  .cards.cards12 ul {
+    gap: 24px;
+  }
+
+  .cards.cards12 ul li {
+    max-width: 280px;
+  }
+
+  .cards.cards12 .cards-card-image {
+    height: 170px;
+  }
+
+  .cards.cards12 .cards-card-body {
+    padding: 24px 18px 32px;
+  }
+}
+
+@media (width <= 900px) {
+  .cards.cards12 ul {
+    flex-wrap: wrap;
+    gap: 18px;
+    justify-content: center;
+  }
+
+  .cards.cards12 ul li {
+    max-width: 48%;
+    min-width: 160px;
+  }
+
+  .cards.cards12 .cards-card-image {
+    height: 110px;
+  }
+
+  .cards.cards12 .cards-card-body {
+    padding: 14px 8px 16px;
+  }
+
+  .cards.cards12 .cards-card-body h3 {
+    font-size: 19px;
+    margin-top: 20px;
+  }
+}
+
+@media (width <= 600px) {
+  .cards.cards12 {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
+  .cards.cards12 ul {
+    flex-direction: column;
+    gap: 12px;
+    align-items: stretch;
+  }
+
+  .cards.cards12 ul li {
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .cards.cards12 .cards-card-image {
+    height: 70px;
+  }
+
+  .cards.cards12 .cards-card-body {
+    padding: 8px 4px 10px;
+  }
+
+  .cards.cards12 .cards-card-body h3 {
+    font-size: 15px;
+    margin-top: 12px;
+  }
+}
+
+/* Remove bullets and default list spacing */
