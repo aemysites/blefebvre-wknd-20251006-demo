@@ -183,7 +183,6 @@
   background: #000;
 }
 
-/* Make the image fill the block as a background */
 .hero.hero6 > div:first-child {
   position: absolute;
   inset: 0;
@@ -199,7 +198,6 @@
   display: block;
 }
 
-/* Overlay: left-aligned, floating above image */
 .hero.hero6 > div:nth-child(2) {
   position: relative;
   z-index: 2;
@@ -215,7 +213,6 @@
   align-items: flex-start;
 }
 
-/* Headline */
 .hero.hero6 > div:nth-child(2) h1 {
   color: #fff;
   text-transform: uppercase;
@@ -226,7 +223,6 @@
   text-align: left;
 }
 
-/* Subtext */
 .hero.hero6 > div:nth-child(2) p:not(.button-container) {
   color: #e0e0e0;
   font-size: var(--body-font-size-s);
@@ -236,7 +232,6 @@
   opacity: 0.94;
 }
 
-/* Button row: spaced horizontally */
 .hero.hero6 > div:nth-child(2) .button-container {
   display: flex;
   flex-direction: row;
@@ -246,7 +241,6 @@
   justify-content: flex-start;
 }
 
-/* Button variants */
 .hero.hero6 > div:nth-child(2) .button-container a.button:first-child {
   background: #fff;
   color: #222;
@@ -265,4 +259,210 @@
   padding: 0.7em 2em;
   font-weight: 600;
   font-size: var(--body-font-size-s);
+}
+
+
+.hero.hero13 {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  margin-left: -50vw;
+  min-height: 560px;
+  display: flex;
+  align-items: stretch;
+  border-radius: 24px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Remove default padding/max-width from wrapper for full-bleed */
+
+/* If image is a background, apply here (assume background-image is set via HTML or another rule) */
+
+/* Overlay panel covers ~60% width, inset from left, with rounded corners and semi-transparent background */
+.hero.hero13 .overlay-panel {
+  position: relative;
+  background: rgb(0 0 0 / 22%);
+  border-radius: 24px;
+  margin-left: 5vw;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+  width: 60vw;
+  max-width: 700px;
+  min-width: 320px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  padding: 48px 44px;
+  box-shadow: 0 10px 32px rgb(0 0 0 / 8%);
+  z-index: 2;
+}
+
+/* Responsive: stack overlay vertically */
+@media (width <= 900px) {
+  .hero.hero13 .overlay-panel {
+    width: 90vw;
+    max-width: 98vw;
+    min-width: 0;
+    padding: 22px 12px;
+    gap: 24px;
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+  }
+}
+
+/* Image on the left side of overlay panel */
+.hero.hero13 .overlay-panel .hero-image {
+  flex: 0 1 33%;
+  order: 1;
+  max-width: 200px;
+  min-width: 120px;
+  aspect-ratio: 1/1;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 2px 12px rgb(0 0 0 / 12%);
+  margin-right: 0;
+  margin-bottom: 0;
+  width: 100%;
+  display: block;
+}
+
+/* Responsive image */
+@media (width <= 900px) {
+  .hero.hero13 .overlay-panel .hero-image {
+    max-width: 120px;
+    min-width: 80px;
+    margin: 0 auto 16px;
+  }
+}
+
+/* Content stack on the right side of panel */
+.hero.hero13 .overlay-panel .content-stack {
+  flex: 1 1 0;
+  order: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* Headline */
+.hero.hero13 .overlay-panel .content-stack h1,
+.hero.hero13 .overlay-panel .content-stack h2,
+.hero.hero13 .overlay-panel .content-stack h3 {
+  color: rgb(34 34 34 / 70%);
+  font-size: clamp(2rem,6vw,3rem);
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin: 0 0 18px;
+  line-height: 1.1;
+}
+
+/* Responsive headline size */
+@media (width <= 900px) {
+  .hero.hero13 .overlay-panel .content-stack h1,
+  .hero.hero13 .overlay-panel .content-stack h2,
+  .hero.hero13 .overlay-panel .content-stack h3 {
+    font-size: clamp(1.4rem,4vw,2.2rem);
+  }
+}
+
+/* List of items with subtle separators */
+.hero.hero13 .overlay-panel .content-stack ul,
+.hero.hero13 .overlay-panel .content-stack ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.hero.hero13 .overlay-panel .content-stack ul li,
+.hero.hero13 .overlay-panel .content-stack ol li {
+  font-size: 1.06rem;
+  color: rgb(34 34 34 / 66%);
+  border-bottom: 1px solid rgb(68 68 68 / 20%);
+  padding: 12px 0;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.hero.hero13 .overlay-panel .content-stack ul li:last-child,
+.hero.hero13 .overlay-panel .content-stack ol li:last-child {
+  border-bottom: none;
+}
+
+/* Button: outlined pill, dark text, no fill, prominent border */
+.hero.hero13 .overlay-panel .content-stack .button,
+.hero.hero13 .overlay-panel .content-stack a.button {
+  border-radius: 100px;
+  border: 2px solid #222;
+  background: transparent;
+  color: #222;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.2;
+  padding: 13px 42px;
+  margin-top: 24px;
+  margin-bottom: 0;
+  box-shadow: none;
+  transition: background 0.18s, color 0.18s;
+  text-align: center;
+  display: inline-block;
+}
+
+.hero.hero13 .overlay-panel .content-stack .button:hover,
+.hero.hero13 .overlay-panel .content-stack a.button:hover {
+  background: rgb(34 34 34 / 6%);
+  color: #222;
+  border-color: #222;
+}
+
+/* Responsive button */
+@media (width <= 900px) {
+  .hero.hero13 .overlay-panel .content-stack .button,
+  .hero.hero13 .overlay-panel .content-stack a.button {
+    padding: 10px 28px;
+    font-size: 0.96rem;
+  }
+}
+
+/* Make sure images fill their containers and aren't stretched */
+.hero.hero13 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 24px;
+  display: block;
+}
+
+/* If the hero image is placed inside a .picture (not background), use flexbox for side-by-side */
+.hero.hero13 .picture {
+  flex: 1;
+  order: 1;
+}
+
+/* If you need the image on the right, swap order values */
+
+/* If you need the image on the right, use:
+.hero.hero13 .overlay-panel .hero-image { order: 2; }
+.hero.hero13 .overlay-panel .content-stack { order: 1; }
+*/
+
+/* Utility: prevent overlap and squish on very small screens */
+@media (width <= 600px) {
+  .hero.hero13 .overlay-panel {
+    padding: 12px 2vw;
+    gap: 12px;
+  }
+}
+
+/* Ensure everything is left-aligned inside stacks */
+.hero.hero13 .overlay-panel .content-stack > * {
+  align-self: flex-start;
 }
