@@ -15,6 +15,8 @@
   width: 100%;
   font-family: Inter, "Helvetica Neue", Arial, sans-serif;
   box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .columns img {
@@ -55,11 +57,53 @@
 
 .columns {
   display: flex;
-  justify-content: center;      /* Center the card horizontally */
-  align-items: center;          /* Center the card vertically */
-  min-height: 60vh;             /* Give room vertically */
-  background: #fafaf6;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  background: transparent;
   padding: 40px 0;
+  max-width: 960px;
+  width: 100%;
 }
 
-/* Remove all card-specific styles from nested divs! */
+
+.columns-wrapper {
+  background: #f6f7f4;
+  padding: 48px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px; /* Example height */
+}
+
+.columns p {
+  font-family: Montserrat, Poppins, Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 24px;
+}
+
+@media (width >= 900px) {
+  .columns {
+    gap: 40px;
+    align-items: center;
+  }
+
+  .columns p {
+    font-size: 3rem;
+  }
+}
+
+@media (width <= 768px) {
+  .columns {
+    flex-direction: column;
+    gap: 32px;
+    padding: 32px 8px;
+    min-height: 280px;
+  }
+
+  .columns p {
+    font-size: 1.3rem;
+  }
+}
