@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .cards > ul {
   list-style: none;
   margin: 0;
@@ -24,4 +25,197 @@
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+}
+
+
+.cards.cards2 {
+  padding: 0;
+  background: #fff;
+  margin: 0 auto;
+  max-width: 1200px;
+  box-sizing: border-box;
+}
+
+.cards.cards2 .cards-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  align-items: stretch;
+  justify-content: center;
+  padding: 4rem 2rem;
+  box-sizing: border-box;
+}
+
+/* --- Left column: feature/main --- */
+.cards.cards2 .block {
+  flex: 2 1 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 0;
+  max-width: 520px;
+  padding-right: 2rem;
+  box-sizing: border-box;
+}
+
+.cards.cards2 .block .cards-card-image {
+  margin-bottom: 2.2rem;
+  border-radius: 1.2rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.cards.cards2 .block .cards-card-image img {
+  width: 100%;
+  min-height: 260px;
+  max-height: 380px;
+  object-fit: cover;
+  border-radius: 1.2rem;
+  display: block;
+}
+
+.cards.cards2 .block .cards-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+.cards.cards2 .block .cards-card-body h3 {
+  margin: 0 0 0.7rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #232323;
+  letter-spacing: 0.04em;
+  line-height: 1.12;
+}
+
+.cards.cards2 .block .cards-card-body p {
+  margin: 0 0 0.8rem;
+  font-size: 1.15rem;
+  color: #6E6E6E;
+  line-height: 1.6;
+}
+
+.cards.cards2 .block .cards-card-body p:last-child {
+  display: inline-block;
+  margin-top: 1.1rem;
+  padding: 0.6em 2.2em;
+  border: 2px solid #232323;
+  border-radius: 999px;
+  background: #232323;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.08rem;
+  text-align: center;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  cursor: pointer;
+  line-height: 1.25;
+}
+
+.cards.cards2 .block .cards-card-body p:last-child:hover,
+.cards.cards2 .block .cards-card-body p:last-child:focus {
+  background: #fff;
+  color: #232323;
+  border-color: #232323;
+}
+
+/* --- Right column: 2x2 grid of cards --- */
+.cards.cards2 ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+  flex: 1 1 0;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  place-items: stretch stretch;
+}
+
+.cards.cards2 li {
+  background: #fff;
+  border-radius: 0.9rem;
+  box-shadow: 0 2px 14px rgb(0 0 0 / 8%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1.4rem 1.2rem 1.2rem;
+  min-width: 0;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.cards.cards2 li .cards-card-image {
+  width: 100%;
+  margin-bottom: 0.8rem;
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+
+.cards.cards2 li .cards-card-image img {
+  width: 100%;
+  min-height: 120px;
+  max-height: 170px;
+  object-fit: cover;
+  border-radius: 0.8rem;
+  display: block;
+}
+
+.cards.cards2 li .cards-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  align-items: flex-start;
+}
+
+.cards.cards2 li .cards-card-body h3 {
+  font-size: 1.16rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #232323;
+  margin: 0 0 0.4rem;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+}
+
+.cards.cards2 li .cards-card-body h3.accent {
+  color: #A8A99E;
+}
+
+.cards.cards2 li .cards-card-body p {
+  font-size: 0.99rem;
+  color: #6E6E6E;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Responsive: stack columns and cards on small screens */
+@media (width <= 900px) {
+  .cards.cards2 .cards-wrapper {
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 2rem 1rem;
+  }
+
+  .cards.cards2 .block {
+    max-width: 100%;
+    padding-right: 0;
+  }
+
+  .cards.cards2 ul {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 1.2rem;
+  }
+
+  .cards.cards2 li {
+    padding: 1.1rem 0.7rem;
+  }
+
+  .cards.cards2 .block .cards-card-image img {
+    min-height: 160px;
+    max-height: 220px;
+  }
 }
