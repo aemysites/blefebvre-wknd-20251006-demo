@@ -1,79 +1,691 @@
 {
-  "originUrl": "https://www.wknd-trendsetters.site",
+  "originUrl": "https://www.citizensbank.com",
   "aborted": false,
-  "lastCrawled": "https://www.wknd-trendsetters.site/",
+  "lastCrawled": "https://www.citizensbank.com/",
   "urls": [
     {
-      "url": "https://www.wknd-trendsetters.site/",
+      "url": "https://www.citizensbank.com/about-our-ads/overview.aspx",
       "source": "SITEMAPS",
-      "targetPath": "/",
-      "id": "1b9ba84f36ee3a519917302a79dfd970725bae31"
+      "targetPath": "/about-our-ads/overview-aspx",
+      "id": "401087424e5429d498b9bc39f2164d36417ada8c"
     },
     {
-      "url": "https://www.wknd-trendsetters.site/blog/fashion-blog-post",
+      "url": "https://www.citizensbank.com/about-us/community.aspx",
       "source": "SITEMAPS",
-      "targetPath": "/blog/fashion-blog-post",
-      "id": "9b4d89f80efba6f8dbcb1e3da8ea8ffa8771a959"
+      "targetPath": "/about-us/community-aspx",
+      "id": "bba56eea4f4ba128b2b41acbb08a4090b5c1270f"
     },
     {
-      "url": "https://www.wknd-trendsetters.site/blog/fashion-trends-stories",
+      "url": "https://www.citizensbank.com/about-us/community/champions-in-action.aspx",
       "source": "SITEMAPS",
-      "targetPath": "/blog/fashion-trends-stories",
-      "id": "0ce90e70ef4e1fb12be408961b1f59c6c28dfd0c"
+      "targetPath": "/about-us/community/champions-in-action-aspx",
+      "id": "0ef8f0027ea81b836cb0f160281464cbafb750bf"
     },
     {
-      "url": "https://www.wknd-trendsetters.site/blog/fashion-trends-young-culture",
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact.aspx",
       "source": "SITEMAPS",
-      "targetPath": "/blog/fashion-trends-young-culture",
-      "id": "f5bdda3762c99b21ef3c8f0ca75cb53a00b4e8bf"
+      "targetPath": "/about-us/community/citizens-impact-aspx",
+      "id": "26733c3a7a9b5d7399ec6912bfcd9a55929a5b53"
     },
     {
-      "url": "https://www.wknd-trendsetters.site/blog/fashion-trends-young-style",
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/bakery-uses-unique-marketing-local-markets-portuguese-pastry-us.aspx",
       "source": "SITEMAPS",
-      "targetPath": "/blog/fashion-trends-young-style",
-      "id": "be00f351b0490d8b536bf724216d6530c30d5684"
+      "targetPath": "/about-us/community/citizens-impact/bakery-uses-unique-marketing-local-markets-portuguese-pastry-us-aspx",
+      "id": "a09351bcb6ca30b2b060724e2a3b1a79fa289b77"
     },
     {
-      "url": "https://www.wknd-trendsetters.site/blog/latest-trends-young-casual-fashion",
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/black-financial-experts-to-follow.aspx",
       "source": "SITEMAPS",
-      "targetPath": "/blog/latest-trends-young-casual-fashion",
-      "id": "971148fccf483ccd07f6ef722bc01c7fb46f61d5"
+      "targetPath": "/about-us/community/citizens-impact/black-financial-experts-to-follow-aspx",
+      "id": "ec2cc63e041af183da4a2c5bad83680e7a14c76d"
     },
     {
-      "url": "https://www.wknd-trendsetters.site/faq",
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/bond-between-runners.aspx",
       "source": "SITEMAPS",
-      "targetPath": "/faq",
-      "id": "429d6f000c5a6e38a121160bf56d01b17365cffe"
+      "targetPath": "/about-us/community/citizens-impact/bond-between-runners-aspx",
+      "id": "8e05f5d90b335f259e46a285559e45a21524439f"
     },
     {
-      "url": "https://www.wknd-trendsetters.site/fashion-insights",
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/book-publisher-finds-business-success-by-supporting-her-community.aspx",
       "source": "SITEMAPS",
-      "targetPath": "/fashion-insights",
-      "id": "67430c465ff7767e6ae98a0cffa44cd32754a351"
+      "targetPath": "/about-us/community/citizens-impact/book-publisher-finds-business-success-by-supporting-her-community-aspx",
+      "id": "22783a45a6feaab91285385371777b4bd536b165"
     },
     {
-      "url": "https://www.wknd-trendsetters.site/fashion-trends-of-the-season",
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/boston-building-resources-champion.aspx",
       "source": "SITEMAPS",
-      "targetPath": "/fashion-trends-of-the-season",
-      "id": "1cfeb2756419a8f56a89a355f5557c3321845adb"
+      "targetPath": "/about-us/community/citizens-impact/boston-building-resources-champion-aspx",
+      "id": "631de487bfe0ac6deca71c1605258adc124fc9a4"
     },
     {
-      "url": "https://www.wknd-trendsetters.site/fashion-trends-young-adults",
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/bridge-over-troubled-waters-and-wellspring-champions.aspx",
       "source": "SITEMAPS",
-      "targetPath": "/fashion-trends-young-adults",
-      "id": "d2dd722de7842a6232ce56b1307d383ff72c9358"
+      "targetPath": "/about-us/community/citizens-impact/bridge-over-troubled-waters-and-wellspring-champions-aspx",
+      "id": "daaa632e6371cebd09495c2f8a4c0390ed55c5d7"
     },
     {
-      "url": "https://www.wknd-trendsetters.site/fashion-trends-young-adults-casual-sport",
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/budgeting-for-runners.aspx",
       "source": "SITEMAPS",
-      "targetPath": "/fashion-trends-young-adults-casual-sport",
-      "id": "1a14744466075b2d00884f27fb69e2633b6fcb84"
+      "targetPath": "/about-us/community/citizens-impact/budgeting-for-runners-aspx",
+      "id": "22f59b03d7bc888b83d0f39c1887e86be7b8caf9"
     },
     {
-      "url": "https://www.wknd-trendsetters.site/latest-trends-young-fashion",
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/career-insights-from-our-cxo.aspx",
       "source": "SITEMAPS",
-      "targetPath": "/latest-trends-young-fashion",
-      "id": "f5e200536a2c91b06effaf661df0675e13f262b6"
+      "targetPath": "/about-us/community/citizens-impact/career-insights-from-our-cxo-aspx",
+      "id": "6cc77cfc6c874942f2ba4c0dd2f602b279337d40"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/celebrating-asian-american-pacific-islander-heritage.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/celebrating-asian-american-pacific-islander-heritage-aspx",
+      "id": "7da40d49af0f1d3fb27c080996e3d59a1100e8af"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/celebrating-hispanic-heritage-month.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/celebrating-hispanic-heritage-month-aspx",
+      "id": "7f91a4ffd139d58a037dfd0d1f903b5228471040"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/celebrating-womens-history-month-and-financial-empowerment-success.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/celebrating-womens-history-month-and-financial-empowerment-success-aspx",
+      "id": "38fba48e71059927f7773f87472a37e0e9a51c74"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/champions-for-pittsburgh-youth.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/champions-for-pittsburgh-youth-aspx",
+      "id": "eea3703025a7fe53eaabeda729c2a77dd49f52c0"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/charitable-giving-plan.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/charitable-giving-plan-aspx",
+      "id": "e12f39e4a53ebdfe7165c76e0688a47c613ae268"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/citizens-workforce-development-panels-benefit-communities.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/citizens-workforce-development-panels-benefit-communities-aspx",
+      "id": "af8e1b6a4abe81328e46f9506847c5a980e3c08f"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/commemorating-juneteenth.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/commemorating-juneteenth-aspx",
+      "id": "eace09d211c1b5120676033b75cd8045ea300ad8"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/community-teamwork-spell-success-nj-pet-groooming-business.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/community-teamwork-spell-success-nj-pet-groooming-business-aspx",
+      "id": "38decae208adbf4348d7673da1fade5cc19a3b66"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/digital-learning-center-launch.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/digital-learning-center-launch-aspx",
+      "id": "588473e588f48f7de04afcc91d3de48e38dd904f"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/drone-business-finds-a-niche-to-finally-reach-its-goals.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/drone-business-finds-a-niche-to-finally-reach-its-goals-aspx",
+      "id": "64ede38aeb2e30f0491ac0aa96206c775405925e"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/fostering-positive-social-change-through-arts.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/fostering-positive-social-change-through-arts-aspx",
+      "id": "90f23622829bc6382c9be05b14c90f84a94325b0"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/generational-wealth-black-communities.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/generational-wealth-black-communities-aspx",
+      "id": "a62da34a6bc41bdd28609bd08344adcf17c5e842"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/genesis-center-anniversary-champion.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/genesis-center-anniversary-champion-aspx",
+      "id": "f2b329672ecf1c6ef94b83533d34975bcf97aa5b"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/getting-to-finish-line.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/getting-to-finish-line-aspx",
+      "id": "91d93c81056931136c1171dee180e6f8f71b3ec6"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/ghanaian-entrepreneur-finds-recipe-success-with-food-from-homeland.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/ghanaian-entrepreneur-finds-recipe-success-with-food-from-homeland-aspx",
+      "id": "31f52d1bd8e3ff49aa7efbe44ef7fe38960edcba"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/how-citizens-is-building-connections-with-hispanic-communities.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/how-citizens-is-building-connections-with-hispanic-communities-aspx",
+      "id": "5433f7255cf29cc1776a48cee6b34b4e82e09e4b"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/how-to-build-habits.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/how-to-build-habits-aspx",
+      "id": "5f1d33da4dfd8a678dc35a9237c411feaf2999d9"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/how-to-cultivate-financial-habits.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/how-to-cultivate-financial-habits-aspx",
+      "id": "beb21750edd49674352f009248b51557b8c64572"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/how-to-green-your-business.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/how-to-green-your-business-aspx",
+      "id": "37a81c18d9ee4a3f245377bd054bb67a6427a0ed"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/jersey-city-entrepreneur-wants-inspire-good-dads-good-grooming.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/jersey-city-entrepreneur-wants-inspire-good-dads-good-grooming-aspx",
+      "id": "6538c673dce9ac94d1d4eb025cec6bdbd2c0132d"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/junior-achievement-financial-literacy-month.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/junior-achievement-financial-literacy-month-aspx",
+      "id": "45dd40395436c26a6c8be3c724a9f7569a49d254"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/marathon-goals-shaun-rose.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/marathon-goals-shaun-rose-aspx",
+      "id": "6078b399424a64a4dacde0010f885e127e4f3e32"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/naacp-convention-day-of-service.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/naacp-convention-day-of-service-aspx",
+      "id": "b43827d6c8f151d335023e6ddadd3d849c9d40cd"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/new-jersey-florist-blooms-with-commitment-customer-service.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/new-jersey-florist-blooms-with-commitment-customer-service-aspx",
+      "id": "47a341eda9743318fab69eeebfb0239c7566e4d9"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/nyc-bakery-finds-niche-pie-crust-cookies-second-chances.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/nyc-bakery-finds-niche-pie-crust-cookies-second-chances-aspx",
+      "id": "17fa288827b6c7e21a4a197686cc7e24c73f2984"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/orpheum-theatre.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/orpheum-theatre-aspx",
+      "id": "f46b823af03d4b4092293b2ca628cb83e84e63c3"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/partner-spotlight-mural-arts-philadelphia.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/partner-spotlight-mural-arts-philadelphia-aspx",
+      "id": "72ae1bb2d0b7ff24b72a02c3a058d1b42834a9c4"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/passion-dance-community-fuels-new-jersey-studio-growth.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/passion-dance-community-fuels-new-jersey-studio-growth-aspx",
+      "id": "415888aac86afef757a9813451cd7f8437607e97"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/pittsburgh-arts-culture.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/pittsburgh-arts-culture-aspx",
+      "id": "a4c171bc810df13bcabecd2cd8dbf056a6719061"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/promoting-workforce-development-naacp-career-summit.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/promoting-workforce-development-naacp-career-summit-aspx",
+      "id": "b15aa0fae43308ade0864eda3edf4317071ce27c"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/queens-night-market.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/queens-night-market-aspx",
+      "id": "fd9adde3e36a2917845b6fdf6f6f1d47dcfb8e73"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/renewable-energy-commitment-sunflower-wind.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/renewable-energy-commitment-sunflower-wind-aspx",
+      "id": "ddcf15529b5ff0f0081d413b7cea842e2bc3f7e3"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/riverfront-north-partnership-champion.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/riverfront-north-partnership-champion-aspx",
+      "id": "7994d003bf3efab63d0a6429514f05764064fac4"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/road-races-impact-community.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/road-races-impact-community-aspx",
+      "id": "a624c41a2bf6dded8e63c7f9415b04e5a7316d2c"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/small-business-empowerment.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/small-business-empowerment-aspx",
+      "id": "9f5eb38aff91cd48b4e770f9f19008c46bf6c979"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/stepping-up-team-citizens.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/stepping-up-team-citizens-aspx",
+      "id": "310fa52434820c0cd94c6787d880de2ce74be888"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/strengthen-communities-financial-empowerment.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/strengthen-communities-financial-empowerment-aspx",
+      "id": "5dab6efe2d603bd6c8b4984b4d6cd700ffd94932"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/supporting-black-artists-economic-mobility.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/supporting-black-artists-economic-mobility-aspx",
+      "id": "8b93a340bb89b20711590c60b8c82ad611765514"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/supporting-veteran-owned-small-businesses.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/supporting-veteran-owned-small-businesses-aspx",
+      "id": "32c07e5bd682f301e8b693e9a89801193775887c"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/the-andy-warhol-museum-pop-district.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/the-andy-warhol-museum-pop-district-aspx",
+      "id": "8e301005c6d620653820b47c9d1132d941830336"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/the-citizen-science-lab.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/the-citizen-science-lab-aspx",
+      "id": "978dc00d531fa1477813b5254f407d469e649cc3"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/the-power-of-women-in-business.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/the-power-of-women-in-business-aspx",
+      "id": "92e8c624f4e9d77f1bc269dfd9c18733a7996129"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/tree-army-helping-veterans.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/tree-army-helping-veterans-aspx",
+      "id": "fbbc4941c156c15dd524b07c302119978060b9bb"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/turning-obstacles-into-growth.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/turning-obstacles-into-growth-aspx",
+      "id": "0770c8cc0e9b40db029f87271ff1e50933fd92e9"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/virtual-counseling-business-helps-support-new-mothers.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/virtual-counseling-business-helps-support-new-mothers-aspx",
+      "id": "ae18975e0bc2b3592412b0c97fbc058d6ec6a570"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/why-pride-is-part-of-our-culture.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/why-pride-is-part-of-our-culture-aspx",
+      "id": "7cbfe4e4706757afbf45cd87c57a01f59ff76aaa"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/women-and-philanthropy-how-to-effectively-leverage-financial-power.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/women-and-philanthropy-how-to-effectively-leverage-financial-power-aspx",
+      "id": "6bd64747caad20097bde763e046cba28706e3102"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/citizens-impact/womens-community-revitalization-project.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/citizens-impact/womens-community-revitalization-project-aspx",
+      "id": "57177182b8c68578cda677269e80193b45cf7559"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/colleague-engagement.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/colleague-engagement-aspx",
+      "id": "e1cd88dd72c571e4702bcf1a8e83be3d6027bbe8"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/corporate-giving.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/corporate-giving-aspx",
+      "id": "90e85fbdea91280b5807332f0d1518814dc27d7e"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/financial-literacy.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/financial-literacy-aspx",
+      "id": "ac60ce02042bbc8d0f8ec592f315c7faabc5b36e"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/military.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/military-aspx",
+      "id": "86a9c9ad09649975f1e338f16763fb03853279ad"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/community/strengthening-communities.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/community/strengthening-communities-aspx",
+      "id": "ab7a2c1c22bea0601829ede359e98fb7d5b88478"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/our-company/awards-and-recognition.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/our-company/awards-and-recognition-aspx",
+      "id": "0a528da89528e2ce83e01692ee1bd8bb02d5c028"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/our-company/board-of-directors.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/our-company/board-of-directors-aspx",
+      "id": "1ebc0b6c842ff11b788567011583bdcc9925e4bd"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/our-company/corporate-sponsorships.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/our-company/corporate-sponsorships-aspx",
+      "id": "ba5ab1a0e4c1507e18481fe871fd84e70281e882"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/our-company/corporate-sponsorships/citizens-bank-park.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/our-company/corporate-sponsorships/citizens-bank-park-aspx",
+      "id": "c5f61cd9c64ba27bc4c21955f313ef4766fe0450"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/our-company/corporate-sponsorships/citizens-giants.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/our-company/corporate-sponsorships/citizens-giants-aspx",
+      "id": "a1ac7e946efce9292123f5d9d400c0ae5613ec86"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/our-company/corporate-sponsorships/citizens-live.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/our-company/corporate-sponsorships/citizens-live-aspx",
+      "id": "0cb8d603ed01ee157a550249343b8c5a377755c0"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/our-company/corporate-sponsorships/nyc-sponsorships.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/our-company/corporate-sponsorships/nyc-sponsorships-aspx",
+      "id": "ceac14e9866ea1d8a9f85ac94ba6f51a304a79e7"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/our-company/leadership-team.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/our-company/leadership-team-aspx",
+      "id": "5354b4af93408a069c0cc5181901fe174cb39b7a"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/our-company/leadership-team/azra-pravdic.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/our-company/leadership-team/azra-pravdic-aspx",
+      "id": "e8505f1e5e5f1ae0d96c0b2f3a35c4ecf8c2e1dc"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/our-company/leadership-team/brendan-coughlin.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/our-company/leadership-team/brendan-coughlin-aspx",
+      "id": "58234230720a4e76efdb96126a817cf7077b4f73"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/our-company/leadership-team/bruce-van-saun.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/our-company/leadership-team/bruce-van-saun-aspx",
+      "id": "8475edccdbd786d20514883e8aae1a3870e8a39b"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/our-company/leadership-team/chris-emerson.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/our-company/leadership-team/chris-emerson-aspx",
+      "id": "e1aed32493a76ce38ec0fb4b21a7426cbf800ed8"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/our-company/leadership-team/donald-mccree.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/our-company/leadership-team/donald-mccree-aspx",
+      "id": "3562543479c7f09376cbbe3f6c818f2ac96d75ef"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/our-company/leadership-team/matt-boss.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/our-company/leadership-team/matt-boss-aspx",
+      "id": "4be3cc62b8e333ac98dd2d5dc0590726d62f01d4"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/our-company/leadership-team/michael-ruttledge.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/our-company/leadership-team/michael-ruttledge-aspx",
+      "id": "4e94f20e054044418c3efa856af7e7ea37e98071"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/our-company/leadership-team/michelle-moosally.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/our-company/leadership-team/michelle-moosally-aspx",
+      "id": "697ff4e0d624427681ed4fe1253ccf36ed954c53"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/our-company/leadership-team/richard-stein.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/our-company/leadership-team/richard-stein-aspx",
+      "id": "b3c1b11202c3c44a16cbed68388d3c26099cbba3"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/our-company/leadership-team/susan-lamonica.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/our-company/leadership-team/susan-lamonica-aspx",
+      "id": "911a58873548d3365748cb9a5466835c8c26e968"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/our-company/leadership-team/ted-swimmer.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/our-company/leadership-team/ted-swimmer-aspx",
+      "id": "58e6d36fe5126ffda17a72924902d7889a9d4e4d"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/our-company/our-history.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/our-company/our-history-aspx",
+      "id": "66f2f5e9c649a71ba853689b5860e6a2f2b5a03a"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/our-company/our-vision-and-values.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/our-company/our-vision-and-values-aspx",
+      "id": "8ff9abb7aca8d58495932f8d4b7d0c0546743def"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/our-company/overview.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/our-company/overview-aspx",
+      "id": "c557a4a470b14176d2af762978b1c55513171478"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/our-company/suppliers.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/our-company/suppliers-aspx",
+      "id": "7fa6136eeba2d895aa2546d77e666c185d232d13"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/overview.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/overview-aspx",
+      "id": "597dd006332a3509c1c5f119d01f1f4438318114"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/sustainability-impact.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/sustainability-impact-aspx",
+      "id": "0890e997fde1fc1cd00dd257edb1d056f429b17c"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/sustainability-impact/climate.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/sustainability-impact/climate-aspx",
+      "id": "3535b6657b18a58aded29682be3efbe980d2e0e4"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/sustainability-impact/diversity-equity-and-inclusion.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/sustainability-impact/diversity-equity-and-inclusion-aspx",
+      "id": "f0b124fbc06cb00debee35daa02695b02cba2987"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/sustainability-impact/diversity-equity-and-inclusion/pay-equity.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/sustainability-impact/diversity-equity-and-inclusion/pay-equity-aspx",
+      "id": "6388e5183b9bc6d7518e989301f86aa5f9ecb38a"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/sustainability-impact/esg.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/sustainability-impact/esg-aspx",
+      "id": "73ad05adb3cd05634cbea0e2f569cb80c36ed421"
+    },
+    {
+      "url": "https://www.citizensbank.com/about-us/sustainability-impact/supplier-diversity.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/about-us/sustainability-impact/supplier-diversity-aspx",
+      "id": "0febe6bf75dfcab9d42d6bd1af2d53e1ad866730"
+    },
+    {
+      "url": "https://www.citizensbank.com/account-pdfs/overview.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/account-pdfs/overview-aspx",
+      "id": "1a0a077f7871e7ece162b87c86c4176541ac1100"
+    },
+    {
+      "url": "https://www.citizensbank.com/account-safeguards/account-information-security.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/account-safeguards/account-information-security-aspx",
+      "id": "ea774dfa43bd31115345451253ad68e4adba9d86"
+    },
+    {
+      "url": "https://www.citizensbank.com/account-safeguards/guarantee.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/account-safeguards/guarantee-aspx",
+      "id": "748c2af6a5281c805e2b51c80c54080a250b2eb5"
+    },
+    {
+      "url": "https://www.citizensbank.com/account-safeguards/how-to-protect-your-account.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/account-safeguards/how-to-protect-your-account-aspx",
+      "id": "d048a26cadae259825fe7cfac1305b0981d107fe"
+    },
+    {
+      "url": "https://www.citizensbank.com/account-safeguards/how-to-protect-your-business-account.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/account-safeguards/how-to-protect-your-business-account-aspx",
+      "id": "3c4c3e23504c3cb08a36d1cc846e62fcb94e129a"
+    },
+    {
+      "url": "https://www.citizensbank.com/account-safeguards/how-to-report-fraud.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/account-safeguards/how-to-report-fraud-aspx",
+      "id": "bb5d3c3d017bde42251332c475b067401ab6d05f"
+    },
+    {
+      "url": "https://www.citizensbank.com/account-safeguards/online-fraud-protection.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/account-safeguards/online-fraud-protection-aspx",
+      "id": "4a8d61946e6c6ec9288f6d0510d5a07d05d4fd97"
+    },
+    {
+      "url": "https://www.citizensbank.com/account-safeguards/online-terms-and-conditions.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/account-safeguards/online-terms-and-conditions-aspx",
+      "id": "33ba2a5a83abee042cfd51898d46da76e7204bf0"
+    },
+    {
+      "url": "https://www.citizensbank.com/account-safeguards/overview.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/account-safeguards/overview-aspx",
+      "id": "edc3678e9f44c6175d6c11e7d525de6d4a0c9019"
+    },
+    {
+      "url": "https://www.citizensbank.com/account-safeguards/privacy.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/account-safeguards/privacy-aspx",
+      "id": "3062189440b435903f2cdd315f6fa64f3d146a71"
+    },
+    {
+      "url": "https://www.citizensbank.com/account-safeguards/security.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/account-safeguards/security-aspx",
+      "id": "ddc708d108ff15e8b56316816f8c5836f24f44cd"
+    },
+    {
+      "url": "https://www.citizensbank.com/account-safeguards/terms-of-use.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/account-safeguards/terms-of-use-aspx",
+      "id": "6b2085c9bb7a018f92f401c6a869207851851a2f"
+    },
+    {
+      "url": "https://www.citizensbank.com/account-safeguards/trusteer-rapport-security-software.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/account-safeguards/trusteer-rapport-security-software-aspx",
+      "id": "69edf8a043b540fe90496c0749174efe3219d9f2"
+    },
+    {
+      "url": "https://www.citizensbank.com/account-safeguards/unauthorized-transaction-policy.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/account-safeguards/unauthorized-transaction-policy-aspx",
+      "id": "8b8ef3ab8544343d63735fed70565301335e4e3f"
+    },
+    {
+      "url": "https://www.citizensbank.com/ada-compliance/overview.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/ada-compliance/overview-aspx",
+      "id": "9310dc1b933022a6eb6271f2962f1856aa76b48d"
+    },
+    {
+      "url": "https://www.citizensbank.com/apple-pay/faqs.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/apple-pay/faqs-aspx",
+      "id": "a16d67534491de1c0b82e60b346c7927ec786b77"
+    },
+    {
+      "url": "https://www.citizensbank.com/checking/debit-cards.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/checking/debit-cards-aspx",
+      "id": "3043145d5f54eab70eea8d241f63ada392c34b9a"
+    },
+    {
+      "url": "https://www.citizensbank.com/checking/debit-cards/zero-liability.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/checking/debit-cards/zero-liability-aspx",
+      "id": "055696b4ed4875f451aaed7300b2403b588e4883"
+    },
+    {
+      "url": "https://www.citizensbank.com/checking/direct-deposit-service.aspx",
+      "source": "SITEMAPS",
+      "targetPath": "/checking/direct-deposit-service-aspx",
+      "id": "46e702cdbb3e80f9c1f36a404b1c3db393bdbee9"
     }
   ],
   "crawlOptions": {
@@ -89,7 +701,12 @@
       "SITEMAPS"
     ]
   },
-  "extractionErrors": [],
-  "errorCountMessage": "none",
+  "extractionErrors": [
+    {
+      "url": "https://www.citizensbank.com/sitemap.xml",
+      "status": "parseSitemapFromUrl (https://www.citizensbank.com/sitemap.xml): Error: Status: 404"
+    }
+  ],
+  "errorCountMessage": "{\"others\":1}",
   "error": null
 }
